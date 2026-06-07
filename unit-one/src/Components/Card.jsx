@@ -2,7 +2,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <img src={props.image} alt={props.title} className="card-image" />
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <p>{props.description}</p>
       <a
         href={props.link}
@@ -10,7 +10,7 @@ const Card = (props) => {
         rel="noopener noreferrer"
         className="card-button"
       >
-        Read More
+        Visit Cafe
       </a>
     </div>
   );

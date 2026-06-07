@@ -1,5 +1,10 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #8ea7e9;
+  font-family: Georgia, serif;
+  background-color: #3e2723;
+}
+
+h1,
+h2 {
+  color: #ffefb4;
 }
